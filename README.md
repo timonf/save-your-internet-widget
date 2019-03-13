@@ -25,7 +25,7 @@ Usage
     'hideOnReload': false
   };
 </script>
-<script src="dist/syi-widget.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/save-your-internet-widget/dist/syi-widget.js" async></script>
 ```
 
 ### Parameters

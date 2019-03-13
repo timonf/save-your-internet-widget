@@ -1,6 +1,6 @@
 {
   "name": "save-your-internet-widget",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple widget to inform visitors about EU copyright reform",
   "keywords": ["321EUOfflineDay", "article13", "article11", "redalert", "saveyourinternet"],
   "main": "src/index.js",
