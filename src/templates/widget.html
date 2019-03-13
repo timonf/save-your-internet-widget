@@ -1,0 +1,104 @@
+<article id="save-your-internet-widget" class="syi" role="dialog">
+    <a href="" onclick="document.getElementById('save-your-internet-widget').remove();return false;" class="syi__button syi__button--close" aria-label="{{ignore}}." data-dismiss="dialog" title="{{ignore}}.">
+        <span aria-hidden="true">&times;</span>
+    </a>
+    <h1>
+        {{hl_1}}<br>
+        <em>{{hl_2}}</em>{{hl_3}}
+    </h1>
+    <p>
+        {{main_1}}<br>
+        {{main_2}}
+    </p>
+    <a href="https://savetheinternet.info/demos" onclick="document.getElementById('save-your-internet-widget').remove();" target="_blank" class="syi__button syi__button--more">
+        {{confirm}} &raquo;
+    </a><a href="" onclick="document.getElementById('save-your-internet-widget').remove();return false;" class="syi__button syi__button--ignore" aria-label="{{ignore}}." data-dismiss="dialog">
+        {{ignore}}.
+    </a>
+    <aside aria-hidden="true">
+        <span class="syi__tag syi__tag--save">#SaveYourInternet</span>
+        <span class="syi__tag syi__tag--stop">#StopArt13</span>
+        <span class="syi__tag syi__tag--article13">#Article13</span>
+    </aside>
+</article>
+<style>
+    /** resetting our stuff to have a similar behaviour on every page! **/
+    .syi, .syi > h1, .syi > p, .syi > a, .syi > aside {
+        border: 0;
+        color: #2e3436;
+        display: block;
+        font: normal 32px/40px "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+        letter-spacing: 0;
+        line-height: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    .syi {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        background: rgba(255,255,255,0.95);
+        margin: 0 auto;
+        border: 2px solid #888a85;
+        padding: 40px;
+        max-width: 860px;
+        margin: auto;
+        z-index: 9999;
+    }
+    .syi > h1 {
+        font: 800 42px/56px "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+        line-height: 56px;
+    }
+    .syi > p {
+        font-weight: 800;
+        font: normal 42px/56px "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+        line-height: 56px;
+        margin: 60px 0;
+    }
+    .syi > a.syi__button, .syi > a.syi__button:link, .syi > a.syi__button:hover, .syi > a.syi__button:focus, .syi > a.syi__button:active {
+        background: #888a85;
+        box-shadow: none;
+        margin-bottom: 40px;
+        margin-right: 40px;
+        color: #ffffff;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        padding: 20px 40px;
+    }
+    .syi > a.syi__button:hover, .syi > a.syi__button:active {
+        box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    }
+    .syi > a.syi__button--more, .syi > a.syi__button--more:link, .syi > a.syi__button--more:hover, .syi > a.syi__button--more:focus, .syi > a.syi__button--more:active {
+        background: #4e9a06;
+    }
+    .syi > a.syi__button--close, .syi > a.syi__button--close:link, .syi > a.syi__button--close:hover, .syi > a.syi__button--close:focus, .syi > a.syi__button--close:active {
+        background: transparent;
+        box-shadow: none;
+        color: #2e3436;
+        display: block;
+        margin: 0;
+        position: relative;
+        float: right;
+        overflow: hidden;
+        top: -20px;
+        right: -20px;
+    }
+    .syi > aside {
+        font-size: 20px;
+    }
+    .syi > aside > .syi__tag {
+        color: #888a85;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    @media screen and (max-width: 860px) {
+        .syi {
+            top: 0;
+        }
+        .syi br {
+            display: none;
+        }
+    }
+</style>
