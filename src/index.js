@@ -4,10 +4,12 @@ import html from './templates/widget.html';
 // Available locales
 import * as locales_de from "./lang/de.json";
 import * as locales_en from "./lang/en.json";
+import * as locales_nl from "./lang/nl.json";
 
 const locales = {
   'de': locales_de.default,
   'en': locales_en.default,
+  'nl': locales_nl.default,
 };
 
 // Default configuration

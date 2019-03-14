@@ -1,8 +1,8 @@
 {
   "name": "save-your-internet-widget",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple widget to inform visitors about EU copyright reform",
-  "keywords": ["321EUOfflineDay", "article13", "article11", "redalert", "saveyourinternet"],
+  "keywords": ["EUAlert", "321EUOfflineDay", "article13", "article11", "redalert", "saveyourinternet"],
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack --progress --colors --watch --env dev",
