@@ -4,19 +4,21 @@ import html from './templates/widget.html';
 // Available locales
 import * as locales_de from "./lang/de.json";
 import * as locales_en from "./lang/en.json";
-import * as locales_fr from "./lang/fr.json";
+//import * as locales_fr from "./lang/fr.json";
 import * as locales_nl from "./lang/nl.json";
+import * as locales_el from "./lang/el.json";
 
 const locales = {
   'de': locales_de.default,
   'en': locales_en.default,
-  'fr': locales_fr.default,
+  //'fr': locales_fr.default,
   'nl': locales_nl.default,
+  'el': locales_el.default
 };
 
 // Default configuration
 const config = {
-  blackOutDay: '2019-03-23',
+  blackOutDay: '2019-03-21',
   hideOnReload: false,
   language: 'en'
 };
