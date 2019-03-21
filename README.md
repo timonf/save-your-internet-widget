@@ -34,7 +34,7 @@ The following parameters can be used for `SAVE_YOUR_INTERNET_CONFIG`:
 
 | Parameter      | Default value  | Description                                                      |
 | -------------- | -------------- | ---------------------------------------------------------------- |
-| `language`     | `'en'`         | Language of the widget (`en`, `de` or `nl`)                      |
+| `language`     | `'en'`         | Language of the widget (`en`, `el`, `de`, `fr` or `nl`)          |
 | `hideOnReload` | `false`        | If it set to `true`, widget will be only shown once              |
 | `blackOutDay`  | `'2019-03-21'` | Day when widget should be shown (can be overwritten for testing) |
 
